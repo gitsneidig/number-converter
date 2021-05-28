@@ -1,0 +1,33 @@
+﻿@model NumberConverter.Models.Number
+@{
+    ViewBag.Title = "Number to Word Converter";
+}
+
+<h2>Number to Word Converter</h2>
+
+<div class="row">
+
+    <div class="col-sm-6 converter">
+        @using (Html.BeginForm("Convert", "Number", FormMethod.Post))
+        {
+            @Html.AntiForgeryToken()
+            <h3>Number to Word Conversion Form</h3>
+            <p>Enter the dollar amount you wish to convert to words in the form field below, then press the button below to view your converted number on the right.</p>
+            <div>
+                @Html.LabelFor(model => model.NumberBeforeConversion)
+                @Html.EditorFor(model => model.NumberBeforeConversion)
+            </div>
+            @Html.ValidationSummary(true)
+            <div class="btn-container">
+                <button class="btn btn-primary">Convert Number to Word Representation</button>
+            </div>
+        }
+    </div>
+    <div class="col-sm-6 converter">
+        <section class="conversion-output">
+            <h3>Your Converted Number</h3>
+            <p>Original Number<br /><span class="input">@Model.NumberBeforeConversion</span></p>
+            <p>Converted Number<br /><span class="output">@Model.ConvertedDigits @Model.ConvertedFraction</span></p>
+        </section>
+    </div>
+</div>
