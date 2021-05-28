@@ -1,0 +1,17 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Number to Word Converter</h1>
+    <p class="lead">The Number to Word Converter is a simple ASP.NET MVC application that accepts user input in the form an Integer or Double datatype and converts the entered value into words.</p>
+    <p>@Html.ActionLink("Continue to the Converter", "Convert", "Number", null, new { @class="btn btn-primary btn-lg" })</p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Contact</h2>
+        <p>Scott is happy to speak with you about working as an ASP.NET MVC Developer.</p>
+        <p>@Html.ActionLink("Learn more", "Contact", "Home", null, new { @class = "btn btn-primary btn-lg" })</p>
+    </div>
+</div>
