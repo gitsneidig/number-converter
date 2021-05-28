@@ -1,0 +1,120 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* Center content within the Jumbotron */
+.container .jumbotron, .container-fluid .jumbotron {
+    text-align: center;
+}
+
+.btn-group-lg > .btn, .btn-lg {
+    border-radius: 15px;
+    border: none;
+}
+
+/* Style error validation for the number converter form */
+.field-validation-error {
+    color: #f00;
+}
+
+.validation-summary-errors {
+    color: #f00;
+    font-weight: bold;
+}
+
+.input-validation-error {
+    border: 2px solid #f00;
+    background-color: #fee;
+}
+
+
+
+/* Style the layout for the converter */
+div.converter {
+    margin:0;
+    padding: 0;
+}
+
+section, form {
+    height: 50vh;
+    background-color: #eee;
+    padding: 20px 20px 0 20px;
+}
+
+section {
+    text-align: center;
+}
+
+/* Style the form for the converter */
+
+form h3 {
+    text-align:center;
+}
+
+form .btn-container {
+    display: flex;
+    justify-content: center;
+    padding: 15px 0 0;
+}
+
+form .btn {
+    border-radius: 15px;
+    border: none;
+    background-color: #337ab7;
+    color: #fff;
+}
+
+form label {
+    padding-right: 15px;
+}
+
+input.text-box {
+    outline: none;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: solid 2px #337ab7;
+}
+
+/* Style the output for the converter */
+section p {
+    font-weight: bold;
+}
+
+section p .output {
+    color: #337ab7;
+    font-weight: bold;
+    font-size: 1.75rem;
+}
+
+/* Styles for the contact page */
+div.contact {
+    margin: 0;
+    padding: 20px 20px 0 20px;
+    font-size: 1.75rem;
+}
+
+div.contact h3 {
+    text-align:center;
+}
