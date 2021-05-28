@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberConverter", "NumberConverter\NumberConverter.csproj", "{EEFF90CC-F39D-4422-8FF2-52D0D7683BCB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EEFF90CC-F39D-4422-8FF2-52D0D7683BCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEFF90CC-F39D-4422-8FF2-52D0D7683BCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEFF90CC-F39D-4422-8FF2-52D0D7683BCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEFF90CC-F39D-4422-8FF2-52D0D7683BCB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {258F4BFF-F46F-4816-B59F-66C08E778BD3}
+	EndGlobalSection
+EndGlobal
